@@ -4,7 +4,8 @@ def func(ls, ls1, x):
 	idx = ls.index(x)
 	ls1[idx] = x
 
-word = ['king', 'code', 'monkey', 'computer']
+	
+word = ['king', 'code', 'monkey', 'computer'] # Ener the word here and warning don't put words with two or more letter
 sel_word = random.choice(word)
 ls = list(sel_word)
 base = []
