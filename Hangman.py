@@ -3,11 +3,8 @@ import random
 def func(ls1, ls2, x):
     idx = ls1.index(x)
     ls2[idx] = x
-
-
-lines = open("words.txt").readlines()
-line = lines[0]
-words = line.split("||")
+    
+words = ["code", "python", "computer", "windows", "linux", "mac"]
 sel = random.choice(words)
 ls = list(sel)
 ls0 = []
